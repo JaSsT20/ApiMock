@@ -1,5 +1,5 @@
 {
-    "employees":[
+    "Employees":[
         {
             "EmployeeId": 1,
             "Name": "Levid",
@@ -71,6 +71,42 @@
             "PendingHours": 0,
             "CompletedHours": 0,
             "TotalHours": 0
+        }
+    ],
+    "News":[
+        {
+            "NewsId": 1,
+            "Sender": 1,
+            "Message": "Este es un mensaje de prueba",
+            "NewsDate": "07/11/2023"
+        },
+        {
+            "NewsId": 2,
+            "Sender": 4,
+            "Message": "Este es un mensaje de prueba",
+            "NewsDate": "06/11/2023"
+        }
+    ],
+    "Request":[
+        {
+            "RequestId": 1,
+            "Employee": 1,
+            "RequestDate": "07/11/2023",
+            "PermissionDate": "08/11/2023",
+            "InitHour": "08:00",
+            "EndHour": "09:00",
+            "Type": 1,
+            "Concept": "Asistencia de hoy."
+        },
+        {
+            "RequestId": 2,
+            "Employee": 1,
+            "RequestDate": "06/11/2023",
+            "PermissionDate": "07/11/2023",
+            "InitHour": "08:00",
+            "EndHour": "16:00",
+            "Type": 1,
+            "Concept": "Cumplimiento de turno."
         }
     ]
 }
