@@ -96,7 +96,8 @@
             "InitHour": "08:00",
             "EndHour": "09:00",
             "Type": 1,
-            "Concept": "Asistencia de hoy."
+            "Concept": "Asistencia de hoy.",
+            "Status": 1
         },
         {
             "RequestId": 2,
@@ -106,7 +107,8 @@
             "InitHour": "08:00",
             "EndHour": "16:00",
             "Type": 1,
-            "Concept": "Cumplimiento de turno."
+            "Concept": "Cumplimiento de turno.",
+            "Status": 1
         }
     ]
 }
