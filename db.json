@@ -1,40 +1,76 @@
 {
-    "people":[
+    "employees":[
         {
-            "PersonId": 1,
-            "Name": "Levid Tejada",
+            "EmployeeId": 1,
+            "Name": "Levid",
+            "Surname": "Tejada",
             "Age": 20,
-            "Occupation": "Student",
-            "City": "Salcedo"
+            "PendingHours": 0,
+            "CompletedHours": 0,
+            "TotalHours": 0
         },
         {
-            "PersonId": 2,
-            "Name": "Greilyn Polanco",
-            "Age": 20,
-            "Occupation": "Student",
-            "City": "Tenares"
+            "EmployeeId": 2,
+            "Name": "Silvio",
+            "Surname": "Peña",
+            "Age": 24,
+            "PendingHours": 0,
+            "CompletedHours": 0,
+            "TotalHours": 0
         },
         {
-            "PersonId": 3,
-            "Name": "José Ortega",
+            "EmployeeId": 3,
+            "Name": "Ahmed",
+            "Surname": "Latzhala",
+            "Age": 32,
+            "PendingHours": 0,
+            "CompletedHours": 0,
+            "TotalHours": 0
+        },
+        {
+            "EmployeeId": 4,
+            "Name": "Luigi",
+            "Surname": "Vent",
             "Age": 21,
-            "Occupation": "Student",
-            "City": "Salcedo"
+            "PendingHours": 0,
+            "CompletedHours": 0,
+            "TotalHours": 0
         },
         {
-            "PersonId": 4,
-            "Name": "Enel Almonte",
-            "Age": 40,
-            "Occupation": "Engineer",
-            "City": "San Francisco"
+            "EmployeeId": 5,
+            "Name": "Carmen",
+            "Surname": "Bonifacio",
+            "Age": 34,
+            "PendingHours": 0,
+            "CompletedHours": 0,
+            "TotalHours": 0
         },
         {
-            "PersonId": 5,
-            "Name": "Junior Gil",
-            "Age": 40,
-            "Occupation": "Engineer",
-            "City": "San Francisco"
+            "EmployeeId": 6,
+            "Name": "Luis",
+            "Surname": "Pena",
+            "Age": 23,
+            "PendingHours": 0,
+            "CompletedHours": 0,
+            "TotalHours": 0
+        },
+        {
+            "EmployeeId": 7,
+            "Name": "Conerlius",
+            "Surname": "Smith",
+            "Age": 26,
+            "PendingHours": 0,
+            "CompletedHours": 0,
+            "TotalHours": 0
+        },
+        {
+            "EmployeeId": 8,
+            "Name": "Laura",
+            "Surname": "Torres",
+            "Age": 20,
+            "PendingHours": 0,
+            "CompletedHours": 0,
+            "TotalHours": 0
         }
-        
     ]
 }
