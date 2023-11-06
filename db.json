@@ -1,0 +1,40 @@
+{
+    "people":[
+        {
+            "PersonId": 1,
+            "Name": "Levid Tejada",
+            "Age": 20,
+            "Occupation": "Student",
+            "City": "Salcedo"
+        },
+        {
+            "PersonId": 2,
+            "Name": "Greilyn Polanco",
+            "Age": 20,
+            "Occupation": "Student",
+            "City": "Tenares"
+        },
+        {
+            "PersonId": 3,
+            "Name": "José Ortega",
+            "Age": 21,
+            "Occupation": "Student",
+            "City": "Salcedo"
+        },
+        {
+            "PersonId": 4,
+            "Name": "Enel Almonte",
+            "Age": 40,
+            "Occupation": "Engineer",
+            "City": "San Francisco"
+        },
+        {
+            "PersonId": 5,
+            "Name": "Junior Gil",
+            "Age": 40,
+            "Occupation": "Engineer",
+            "City": "San Francisco"
+        }
+        
+    ]
+}
