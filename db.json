@@ -79,6 +79,7 @@
             "PermissionDate": "08/11/2023",
             "StartHour": "08:00",
             "EndHour": "09:00",
+            "TotalHours": "1h 00m",
             "Type": 1,
             "Concept": "Asistencia de hoy.",
             "Status": 1
@@ -90,6 +91,7 @@
             "PermissionDate": "07/11/2023",
             "StartHour": "08:00",
             "EndHour": "16:00",
+            "TotalHours": "9h 00m",
             "Type": 1,
             "Concept": "Cumplimiento de turno.",
             "Status": 1
