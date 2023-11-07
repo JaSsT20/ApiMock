@@ -6,34 +6,34 @@
             "Surname": "Tejada",
             "Age": 20,
             "PendingHours": 0,
-            "CompletedHours": 0,
-            "TotalHours": 0
+            "CompletedHours": 8,
+            "TotalHours": 8
         },
         {
             "EmployeeId": 2,
             "Name": "Silvio",
             "Surname": "Peña",
             "Age": 24,
-            "PendingHours": 0,
-            "CompletedHours": 0,
-            "TotalHours": 0
+            "PendingHours": 6,
+            "CompletedHours": 8,
+            "TotalHours": 2
         },
         {
             "EmployeeId": 3,
             "Name": "Ahmed",
             "Surname": "Latzhala",
             "Age": 32,
-            "PendingHours": 0,
-            "CompletedHours": 0,
-            "TotalHours": 0
+            "PendingHours": 10,
+            "CompletedHours": 5,
+            "TotalHours": -5
         },
         {
             "EmployeeId": 4,
             "Name": "Luigi",
             "Surname": "Vent",
             "Age": 21,
-            "PendingHours": 0,
-            "CompletedHours": 0,
+            "PendingHours": 8,
+            "CompletedHours": 8,
             "TotalHours": 0
         },
         {
@@ -41,18 +41,18 @@
             "Name": "Carmen",
             "Surname": "Bonifacio",
             "Age": 34,
-            "PendingHours": 0,
-            "CompletedHours": 0,
-            "TotalHours": 0
+            "PendingHours": 3,
+            "CompletedHours": 6,
+            "TotalHours": 3
         },
         {
             "EmployeeId": 6,
             "Name": "Luis",
             "Surname": "Pena",
             "Age": 23,
-            "PendingHours": 0,
-            "CompletedHours": 0,
-            "TotalHours": 0
+            "PendingHours": 2,
+            "CompletedHours": 8,
+            "TotalHours": 6
         },
         {
             "EmployeeId": 7,
