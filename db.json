@@ -2,72 +2,56 @@
     "Employees":[
         {
             "EmployeeId": 1,
-            "Name": "Levid",
-            "Surname": "Tejada",
-            "Age": 20,
+            "Name": "Levid Tejada",
             "PendingHours": 0,
             "CompletedHours": 8,
             "TotalHours": 8
         },
         {
             "EmployeeId": 2,
-            "Name": "Silvio",
-            "Surname": "Peña",
-            "Age": 24,
+            "Name": "Silvio Peña",
             "PendingHours": 6,
             "CompletedHours": 8,
             "TotalHours": 2
         },
         {
             "EmployeeId": 3,
-            "Name": "Ahmed",
-            "Surname": "Latzhala",
-            "Age": 32,
+            "Name": "Ahmed Latzhala",
             "PendingHours": 10,
             "CompletedHours": 5,
             "TotalHours": -5
         },
         {
             "EmployeeId": 4,
-            "Name": "Luigi",
-            "Surname": "Vent",
-            "Age": 21,
+            "Name": "Luigi Vent",
             "PendingHours": 8,
             "CompletedHours": 8,
             "TotalHours": 0
         },
         {
             "EmployeeId": 5,
-            "Name": "Carmen",
-            "Surname": "Bonifacio",
-            "Age": 34,
+            "Name": "Carmen Bonifacio",
             "PendingHours": 3,
             "CompletedHours": 6,
             "TotalHours": 3
         },
         {
             "EmployeeId": 6,
-            "Name": "Luis",
-            "Surname": "Pena",
-            "Age": 23,
+            "Name": "Luis Pena",
             "PendingHours": 2,
             "CompletedHours": 8,
             "TotalHours": 6
         },
         {
             "EmployeeId": 7,
-            "Name": "Conerlius",
-            "Surname": "Smith",
-            "Age": 26,
+            "Name": "Conerlius Smith",
             "PendingHours": 0,
             "CompletedHours": 0,
             "TotalHours": 0
         },
         {
             "EmployeeId": 8,
-            "Name": "Laura",
-            "Surname": "Torres",
-            "Age": 20,
+            "Name": "Laura Torres",
             "PendingHours": 0,
             "CompletedHours": 0,
             "TotalHours": 0
@@ -76,13 +60,13 @@
     "News":[
         {
             "NewsId": 1,
-            "Sender": 1,
+            "Author": 1,
             "Message": "Este es un mensaje de prueba",
             "NewsDate": "07/11/2023"
         },
         {
             "NewsId": 2,
-            "Sender": 4,
+            "Author": 4,
             "Message": "Este es un mensaje de prueba",
             "NewsDate": "06/11/2023"
         }
@@ -93,7 +77,7 @@
             "Employee": 1,
             "RequestDate": "07/11/2023",
             "PermissionDate": "08/11/2023",
-            "InitHour": "08:00",
+            "StartHour": "08:00",
             "EndHour": "09:00",
             "Type": 1,
             "Concept": "Asistencia de hoy.",
@@ -104,7 +88,7 @@
             "Employee": 1,
             "RequestDate": "06/11/2023",
             "PermissionDate": "07/11/2023",
-            "InitHour": "08:00",
+            "StartHour": "08:00",
             "EndHour": "16:00",
             "Type": 1,
             "Concept": "Cumplimiento de turno.",
