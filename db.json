@@ -98,5 +98,41 @@
             "Status": 1,
             "Annotation": null
         }
+    ],
+    "Dog":[
+          {
+            "dogId": 1,
+            "name": "Max",
+            "race": "Golden retriever",
+            "size": "Small",
+            "weight": 100,
+            "status": "Disponible",
+            "gender": "Macho",
+            "birthDate": "2023-11-19",
+            "hairColor": "Black",
+            "sterilization": true,
+            "behaviour": "Calm",
+            "activityLevel": "Low",
+            "checkInDate": "2023-11-19",
+            "origin": "Streets",
+            "image": "https://i.ibb.co/QJypL3c/b6d98567abbc89ae01d29a031dba799a.jpg"
+          },
+          {
+            "dogId": 2,
+            "name": "Lola",
+            "race": "Golden retriever",
+            "size": "Small",
+            "weight": 70,
+            "status": "Disponible",
+            "gender": "Female",
+            "birthDate": "2023-11-19",
+            "hairColor": "Black",
+            "sterilization": true,
+            "behaviour": "Calm",
+            "activityLevel": "Low",
+            "checkInDate": "2023-11-19",
+            "origin": "Streets",
+            "image": "https://i.ibb.co/F01Z2Fp/289759.jpg"
+          }
     ]
 }
