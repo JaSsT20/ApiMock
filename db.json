@@ -234,7 +234,24 @@
             "activityLevel": "Low",
             "checkInDate": "2023-06-19",
             "origin": "Streets",
-            "image": "hhttps://i.ibb.co/hL1PdQd/perrito-8.jpg"
+            "image": "https://i.ibb.co/hL1PdQd/perrito-8.jpg"
+          },
+          {
+            "dogId": 9,
+            "name": "Mahia",
+            "race": "Pitbull",
+            "size": "Medium",
+            "weight": 5,
+            "status": "Disponible",
+            "gender": "Female",
+            "birthDate": "2022-05-27",
+            "hairColor": "White",
+            "sterilization": true,
+            "behaviour": "Calm",
+            "activityLevel": "Low",
+            "checkInDate": "2023-06-19",
+            "origin": "Streets",
+            "image": "https://i.ibb.co/c8d6CXR/pitbull8.jpg"
           }
     ]
 }
