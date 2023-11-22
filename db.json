@@ -253,5 +253,38 @@
             "origin": "Streets",
             "image": "https://i.ibb.co/c8d6CXR/pitbull8.jpg"
           }
+    ],
+    "User":
+    [
+        {
+            "UserId": 1,
+            "Name": "Levid",
+            "Surname": "Tejada",
+            "IdentificationNumber": "402-1363717-2",
+            "Address": "Salcedo",
+            "Email": "jassontejada@gmail.com",
+            "Password": "LevidT20",
+            "Telephone": "8095773866",
+            "Cellphone": "8493594927",
+            "Sex": "M",
+            "AppointmentDate": null,
+            "HouseType": "Apartamento",
+            "Role": "Admin"
+        },
+        {
+            "UserId": 2,
+            "Name": "Greilyn",
+            "Surname": "Polanco",
+            "IdentificationNumber": "402-1363327-2",
+            "Address": "Tenares",
+            "Email": "grey@gmail.com",
+            "Password": "22Anahis",
+            "Telephone": "8095573866",
+            "Cellphone": "8493514927",
+            "Sex": "F",
+            "AppointmentDate": null,
+            "HouseType": "Casa",
+            "Role": "Admin"
+        }
     ]
 }
