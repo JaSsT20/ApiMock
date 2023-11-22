@@ -103,7 +103,7 @@
           {
             "dogId": 1,
             "name": "Max",
-            "race": "Golden retriever",
+            "race": "Sabueso De Transilvania",
             "size": "Small",
             "weight": 100,
             "status": "Disponible",
@@ -115,7 +115,7 @@
             "activityLevel": "Low",
             "checkInDate": "2023-11-19",
             "origin": "Streets",
-            "image": "https://i.ibb.co/QJypL3c/b6d98567abbc89ae01d29a031dba799a.jpg"
+            "image": "https://i.ibb.co/V9L8vmW/perrito-0.jpg"
           },
           {
             "dogId": 2,
@@ -149,7 +149,7 @@
             "activityLevel": "Low",
             "checkInDate": "2023-06-19",
             "origin": "Streets",
-            "image": "https://i.ibb.co/w4drbWT/golden.jpg"
+            "image": "https://i.ibb.co/Bfw1X6w/perrito-golden.jpg"
           },
           {
             "dogId": 4,
@@ -171,7 +171,7 @@
           {
             "dogId": 5,
             "name": "Maxi",
-            "race": "Jack Russell Terrier",
+            "race": "Pastor Aleman",
             "size": "Small",
             "weight": 15,
             "status": "Disponible",
@@ -183,7 +183,7 @@
             "activityLevel": "Low",
             "checkInDate": "2023-06-19",
             "origin": "Streets",
-            "image": "https://i.ibb.co/TqsZtc8/perrito-3.jpg"
+            "image": "https://i.ibb.co/ydjfYLH/perrito5-1.jpg"
           },
           {
             "dogId": 6,
@@ -220,7 +220,7 @@
             "image": "https://i.ibb.co/ccf2xZD/perrito-5.jpg"
           },
           {
-            "dogId": 7,
+            "dogId": 8,
             "name": "Mike",
             "race": "Jack Russell Terrier",
             "size": "Medium",
@@ -234,7 +234,7 @@
             "activityLevel": "Low",
             "checkInDate": "2023-06-19",
             "origin": "Streets",
-            "image": "https://i.ibb.co/NWDDhCZ/perrito-6.jpg"
+            "image": "hhttps://i.ibb.co/hL1PdQd/perrito-8.jpg"
           }
     ]
 }
