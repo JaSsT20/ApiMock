@@ -286,5 +286,119 @@
             "HouseType": "Casa",
             "Role": "Admin"
         }
-    ]
+    ],
+    UserGDP:
+    {
+      "Name": "John",
+      "LastName": "Doe",
+      "Username": "johndoe",
+      "Email": "johndoe@example.com",
+      "Password": "mypassword",
+      "Projects": [
+        {
+          "Title": "Project 1",
+          "Description": "Description of Project 1",
+          "Status": "InProgress",
+          "StartDate": "2024-03-20",
+          "EndDate": "2024-04-20",
+          "Note": "Note for Project 1",
+          "Participants": [
+            {
+              "UserId": 1,
+              "RoleId": 1
+            },
+            {
+              "UserId": 2,
+              "RoleId": 2
+            }
+          ],
+          "Tasks": [
+            {
+              "Title": "Task 1 for Project 1",
+              "Description": "Description of Task 1 for Project 1",
+              "Status": "ToDo",
+              "StartDate": "2024-03-20",
+              "EndDate": null,
+              "Note": "Note for Task 1"
+            },
+            {
+              "Title": "Task 2 for Project 1",
+              "Description": "Description of Task 2 for Project 1",
+              "Status": "InProgress",
+              "StartDate": "2024-03-21",
+              "EndDate": null,
+              "Note": "Note for Task 2"
+            }
+          ]
+        },
+        {
+          "Title": "Project 2",
+          "Description": "Description of Project 2",
+          "Status": "Pending",
+          "StartDate": "2024-03-25",
+          "EndDate": "2024-04-25",
+          "Note": "Note for Project 2",
+          "Participants": [
+            {
+              "UserId": 1,
+              "RoleId": 1
+            }
+          ],
+          "Tasks": [
+            {
+              "Title": "Task 1 for Project 2",
+              "Description": "Description of Task 1 for Project 2",
+              "Status": "ToDo",
+              "StartDate": "2024-03-25",
+              "EndDate": null,
+              "Note": "Note for Task 1"
+            },
+            {
+              "Title": "Task 2 for Project 2",
+              "Description": "Description of Task 2 for Project 2",
+              "Status": "InProgress",
+              "StartDate": "2024-03-26",
+              "EndDate": null,
+              "Note": "Note for Task 2"
+            }
+          ]
+        },
+        {
+          "Title": "Project 3",
+          "Description": "Description of Project 3",
+          "Status": "InProgress",
+          "StartDate": "2024-03-30",
+          "EndDate": "2024-04-30",
+          "Note": "Note for Project 3",
+          "Participants": [
+            {
+              "UserId": 1,
+              "RoleId": 1
+            },
+            {
+              "UserId": 3,
+              "RoleId": 2
+            }
+          ],
+          "Tasks": [
+            {
+              "Title": "Task 1 for Project 3",
+              "Description": "Description of Task 1 for Project 3",
+              "Status": "ToDo",
+              "StartDate": "2024-03-30",
+              "EndDate": null,
+              "Note": "Note for Task 1"
+            },
+            {
+              "Title": "Task 2 for Project 3",
+              "Description": "Description of Task 2 for Project 3",
+              "Status": "InProgress",
+              "StartDate": "2024-03-31",
+              "EndDate": null,
+              "Note": "Note for Task 2"
+            }
+          ]
+        }
+      ]
+    }
 }
