@@ -1,404 +1,72 @@
 {
-    "Employees":[
-        {
-            "EmployeeId": 1,
-            "Name": "Levid Tejada",
-            "PendingHours": 0,
-            "CompletedHours": 8,
-            "TotalHours": 8
-        },
-        {
-            "EmployeeId": 2,
-            "Name": "Silvio Peña",
-            "PendingHours": 6,
-            "CompletedHours": 8,
-            "TotalHours": 2
-        },
-        {
-            "EmployeeId": 3,
-            "Name": "Ahmed Latzhala",
-            "PendingHours": 10,
-            "CompletedHours": 5,
-            "TotalHours": -5
-        },
-        {
-            "EmployeeId": 4,
-            "Name": "Luigi Vent",
-            "PendingHours": 8,
-            "CompletedHours": 8,
-            "TotalHours": 0
-        },
-        {
-            "EmployeeId": 5,
-            "Name": "Carmen Bonifacio",
-            "PendingHours": 3,
-            "CompletedHours": 6,
-            "TotalHours": 3
-        },
-        {
-            "EmployeeId": 6,
-            "Name": "Luis Pena",
-            "PendingHours": 2,
-            "CompletedHours": 8,
-            "TotalHours": 6
-        },
-        {
-            "EmployeeId": 7,
-            "Name": "Conerlius Smith",
-            "PendingHours": 0,
-            "CompletedHours": 0,
-            "TotalHours": 0
-        },
-        {
-            "EmployeeId": 8,
-            "Name": "Laura Torres",
-            "PendingHours": 0,
-            "CompletedHours": 0,
-            "TotalHours": 0
-        }
-    ],
-    "News":[
-        {
-            "NewsId": 1,
-            "Author": "Levid Tejada",
-            "Message": "Este es un mensaje de prueba",
-            "NewsDate": "07/11/2023"
-        },
-        {
-            "NewsId": 2,
-            "Author": "Silvio Peña",
-            "Message": "Este es un mensaje de prueba",
-            "NewsDate": "06/11/2023"
-        }
-    ],
-    "Request":[
-        {
-            "RequestId": 1,
-            "Employee": "Ahmed Latzhala",
-            "RequestDate": "07/11/2023",
-            "PermissionDate": "08/11/2023",
-            "StartHour": "08:00",
-            "EndHour": "09:00",
-            "TotalHours": "1h 00m",
-            "Type": 1,
-            "Concept": "Asistencia de hoy.",
-            "Status": 1,
-            "Annotation": null
-        },
-        {
-            "RequestId": 2,
-            "Employee": "Levid Tejada",
-            "RequestDate": "06/11/2023",
-            "PermissionDate": "07/11/2023",
-            "StartHour": "08:00",
-            "EndHour": "16:00",
-            "TotalHours": "9h 00m",
-            "Type": 1,
-            "Concept": "Cumplimiento de turno.",
-            "Status": 1,
-            "Annotation": null
-        }
-    ],
-    "Dog":[
-          {
-            "dogId": 1,
-            "name": "Max",
-            "race": "Sabueso De Transilvania",
-            "size": "Small",
-            "weight": 100,
-            "status": "Disponible",
-            "gender": "Macho",
-            "birthDate": "2023-11-19",
-            "hairColor": "Black",
-            "sterilization": true,
-            "behaviour": "Calm",
-            "activityLevel": "Low",
-            "checkInDate": "2023-11-19",
-            "origin": "Streets",
-            "image": "https://i.ibb.co/V9L8vmW/perrito-0.jpg"
-          },
-          {
-            "dogId": 2,
-            "name": "Lola",
-            "race": "Golden retriever",
-            "size": "Small",
-            "weight": 70,
-            "status": "Disponible",
-            "gender": "Female",
-            "birthDate": "2023-11-19",
-            "hairColor": "Black",
-            "sterilization": true,
-            "behaviour": "Calm",
-            "activityLevel": "Low",
-            "checkInDate": "2023-11-19",
-            "origin": "Streets",
-            "image": "https://i.ibb.co/F01Z2Fp/289759.jpg"
-          },
-          {
-            "dogId": 3,
-            "name": "Rex",
-            "race": "Golden retriever",
-            "size": "Big",
-            "weight": 70,
-            "status": "Disponible",
-            "gender": "Male",
-            "birthDate": "2016-05-11",
-            "hairColor": "Yellow",
-            "sterilization": true,
-            "behaviour": "Calm",
-            "activityLevel": "Low",
-            "checkInDate": "2023-06-19",
-            "origin": "Streets",
-            "image": "https://i.ibb.co/Bfw1X6w/perrito-golden.jpg"
-          },
-          {
-            "dogId": 4,
-            "name": "Maicol",
-            "race": "Kai Ken",
-            "size": "Medium",
-            "weight": 50,
-            "status": "Disponible",
-            "gender": "Male",
-            "birthDate": "2019-04-05",
-            "hairColor": "Black",
-            "sterilization": true,
-            "behaviour": "Calm",
-            "activityLevel": "Low",
-            "checkInDate": "2023-06-19",
-            "origin": "Streets",
-            "image": "https://i.ibb.co/fYSW9h8/perrito-1.jpg"
-          },
-          {
-            "dogId": 5,
-            "name": "Maxi",
-            "race": "Pastor Aleman",
-            "size": "Small",
-            "weight": 15,
-            "status": "Disponible",
-            "gender": "Male",
-            "birthDate": "2023-04-11",
-            "hairColor": "White",
-            "sterilization": true,
-            "behaviour": "Calm",
-            "activityLevel": "Low",
-            "checkInDate": "2023-06-19",
-            "origin": "Streets",
-            "image": "https://i.ibb.co/ydjfYLH/perrito5-1.jpg"
-          },
-          {
-            "dogId": 6,
-            "name": "Locky",
-            "race": "Jack Russell Terrier",
-            "size": "Medium",
-            "weight": 10,
-            "status": "Disponible",
-            "gender": "Male",
-            "birthDate": "2018-07-13",
-            "hairColor": "White",
-            "sterilization": true,
-            "behaviour": "Calm",
-            "activityLevel": "Low",
-            "checkInDate": "2023-06-19",
-            "origin": "Streets",
-            "image": "https://i.ibb.co/YdYCSn5/perrito-4.jpg"
-          },
-          {
-            "dogId": 7,
-            "name": "Maya",
-            "race": "Braco De Weimar",
-            "size": "Medium",
-            "weight": 40,
-            "status": "Disponible",
-            "gender": "Female",
-            "birthDate": "2018-02-08",
-            "hairColor": "Black",
-            "sterilization": true,
-            "behaviour": "Calm",
-            "activityLevel": "Low",
-            "checkInDate": "2023-07-19",
-            "origin": "Streets",
-            "image": "https://i.ibb.co/ccf2xZD/perrito-5.jpg"
-          },
-          {
-            "dogId": 8,
-            "name": "Mike",
-            "race": "Jack Russell Terrier",
-            "size": "Medium",
-            "weight": 5,
-            "status": "Disponible",
-            "gender": "Male",
-            "birthDate": "2020-05-27",
-            "hairColor": "Yellow",
-            "sterilization": true,
-            "behaviour": "Calm",
-            "activityLevel": "Low",
-            "checkInDate": "2023-06-19",
-            "origin": "Streets",
-            "image": "https://i.ibb.co/hL1PdQd/perrito-8.jpg"
-          },
-          {
-            "dogId": 9,
-            "name": "Mahia",
-            "race": "Pitbull",
-            "size": "Medium",
-            "weight": 5,
-            "status": "Disponible",
-            "gender": "Female",
-            "birthDate": "2022-05-27",
-            "hairColor": "White",
-            "sterilization": true,
-            "behaviour": "Calm",
-            "activityLevel": "Low",
-            "checkInDate": "2023-06-19",
-            "origin": "Streets",
-            "image": "https://i.ibb.co/c8d6CXR/pitbull8.jpg"
-          }
-    ],
-    "User":
-    [
-        {
-            "UserId": 1,
-            "Name": "Levid",
-            "Surname": "Tejada",
-            "IdentificationNumber": "402-1363717-2",
-            "Address": "Salcedo",
-            "Email": "jassontejada@gmail.com",
-            "Password": "LevidT20",
-            "Telephone": "8095773866",
-            "Cellphone": "8493594927",
-            "Sex": "M",
-            "AppointmentDate": null,
-            "HouseType": "Apartamento",
-            "Role": "Admin"
-        },
-        {
-            "UserId": 2,
-            "Name": "Greilyn",
-            "Surname": "Polanco",
-            "IdentificationNumber": "402-1363327-2",
-            "Address": "Tenares",
-            "Email": "grey@gmail.com",
-            "Password": "22Anahis",
-            "Telephone": "8095573866",
-            "Cellphone": "8493514927",
-            "Sex": "F",
-            "AppointmentDate": null,
-            "HouseType": "Casa",
-            "Role": "Admin"
-        }
-    ],
-    UserGDP:
+   {
+  "Name": "John",
+  "LastName": "Doe",
+  "Username": "johndoe",
+  "Email": "johndoe@example.com",
+  "Password": "mypassword",
+  "Projects": [
     {
-      "Name": "John",
-      "LastName": "Doe",
-      "Username": "johndoe",
-      "Email": "johndoe@example.com",
-      "Password": "mypassword",
-      "Projects": [
+      "Title": "Project 1",
+      "Description": "Description of Project 1",
+      "Status": "InProgress",
+      "StartDate": "2024-03-20",
+      "EndDate": "2024-04-20",
+      "Note": "Note for Project 1",
+      "Participants": [
         {
-          "Title": "Project 1",
-          "Description": "Description of Project 1",
-          "Status": "InProgress",
+          "UserId": 1,
+          "RoleId": 1
+        },
+        {
+          "UserId": 2,
+          "RoleId": 2
+        }
+      ],
+      "Tasks": [
+        {
+          "Title": "Task 1 for Project 1",
+          "Description": "Description of Task 1 for Project 1",
+          "Status": "ToDo",
           "StartDate": "2024-03-20",
-          "EndDate": "2024-04-20",
-          "Note": "Note for Project 1",
-          "Participants": [
-            {
-              "UserId": 1,
-              "RoleId": 1
-            },
-            {
-              "UserId": 2,
-              "RoleId": 2
-            }
-          ],
-          "Tasks": [
-            {
-              "Title": "Task 1 for Project 1",
-              "Description": "Description of Task 1 for Project 1",
-              "Status": "ToDo",
-              "StartDate": "2024-03-20",
-              "EndDate": null,
-              "Note": "Note for Task 1"
-            },
-            {
-              "Title": "Task 2 for Project 1",
-              "Description": "Description of Task 2 for Project 1",
-              "Status": "InProgress",
-              "StartDate": "2024-03-21",
-              "EndDate": null,
-              "Note": "Note for Task 2"
-            }
-          ]
+          "EndDate": null,
+          "Note": "Note for Task 1"
         },
         {
-          "Title": "Project 2",
-          "Description": "Description of Project 2",
-          "Status": "Pending",
-          "StartDate": "2024-03-25",
-          "EndDate": "2024-04-25",
-          "Note": "Note for Project 2",
-          "Participants": [
-            {
-              "UserId": 1,
-              "RoleId": 1
-            }
-          ],
-          "Tasks": [
-            {
-              "Title": "Task 1 for Project 2",
-              "Description": "Description of Task 1 for Project 2",
-              "Status": "ToDo",
-              "StartDate": "2024-03-25",
-              "EndDate": null,
-              "Note": "Note for Task 1"
-            },
-            {
-              "Title": "Task 2 for Project 2",
-              "Description": "Description of Task 2 for Project 2",
-              "Status": "InProgress",
-              "StartDate": "2024-03-26",
-              "EndDate": null,
-              "Note": "Note for Task 2"
-            }
-          ]
-        },
-        {
-          "Title": "Project 3",
-          "Description": "Description of Project 3",
+          "Title": "Task 2 for Project 1",
+          "Description": "Description of Task 2 for Project 1",
           "Status": "InProgress",
-          "StartDate": "2024-03-30",
-          "EndDate": "2024-04-30",
-          "Note": "Note for Project 3",
-          "Participants": [
-            {
-              "UserId": 1,
-              "RoleId": 1
-            },
-            {
-              "UserId": 3,
-              "RoleId": 2
-            }
-          ],
-          "Tasks": [
-            {
-              "Title": "Task 1 for Project 3",
-              "Description": "Description of Task 1 for Project 3",
-              "Status": "ToDo",
-              "StartDate": "2024-03-30",
-              "EndDate": null,
-              "Note": "Note for Task 1"
-            },
-            {
-              "Title": "Task 2 for Project 3",
-              "Description": "Description of Task 2 for Project 3",
-              "Status": "InProgress",
-              "StartDate": "2024-03-31",
-              "EndDate": null,
-              "Note": "Note for Task 2"
-            }
-          ]
+          "StartDate": "2024-03-21",
+          "EndDate": null,
+          "Note": "Note for Task 2"
+        }
+      ]
+    },
+    {
+      "Title": "Project 2",
+      "Description": "Description of Project 2",
+      "Status": "Pending",
+      "StartDate": "2024-03-25",
+      "EndDate": "2024-04-25",
+      "Note": "Note for Project 2",
+      "Participants": [
+        {
+          "UserId": 1,
+          "RoleId": 1
+        }
+      ],
+      "Tasks": [
+        {
+          "Title": "Task 1 for Project 2",
+          "Description": "Description of Task 1 for Project 2",
+          "Status": "ToDo",
+          "StartDate": "2024-03-25",
+          "EndDate": null,
+          "Note": "Note for Task 1"
         }
       ]
     }
+  ]
+}
+
 }
