@@ -1,5 +1,4 @@
 {
-   {
   "Name": "John",
   "LastName": "Doe",
   "Username": "johndoe",
@@ -67,6 +66,4 @@
       ]
     }
   ]
-}
-
 }
