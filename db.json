@@ -66,91 +66,91 @@
       "id": 1,
       "name": "Workstation Pro",
       "type": "Desktop",
-      "components": [1, 2, 3, 4, 5]
+      "components": [1, 3, 5, 7, 9, 11, 16]
     },
     {
       "id": 2,
       "name": "Gaming Beast",
       "type": "Desktop",
-      "components": [6, 7, 8, 9, 10]
+      "components": [2, 4, 6, 8, 10, 12, 17]
     },
     {
       "id": 3,
       "name": "Office Basic",
       "type": "Desktop",
-      "components": [11, 12, 13, 14]
+      "components": [1, 4, 6, 11, 13, 17]
     },
     {
       "id": 4,
       "name": "Developer Rig",
       "type": "Desktop",
-      "components": [15, 16, 17, 18, 19]
+      "components": [2, 3, 5, 8, 9, 12, 16]
     },
     {
       "id": 5,
       "name": "Media Center",
       "type": "HTPC",
-      "components": [20, 1, 12, 5]
+      "components": [1, 4, 13, 19, 20]
     },
     {
       "id": 6,
       "name": "Portable Workstation",
       "type": "Laptop",
-      "components": [2, 3, 7, 14]
+      "components": [2, 5, 7, 14, 18]
     },
     {
       "id": 7,
       "name": "Student Laptop",
       "type": "Laptop",
-      "components": [4, 8, 12, 16]
+      "components": [1, 6, 13, 15]
     },
     {
       "id": 8,
       "name": "Server Prime",
       "type": "Server",
-      "components": [9, 13, 17, 1, 5]
+      "components": [2, 9, 15, 17, 19]
     },
     {
       "id": 9,
       "name": "Gaming Notebook",
       "type": "Laptop",
-      "components": [10, 14, 18, 2, 6]
+      "components": [2, 6, 8, 12, 18]
     },
     {
       "id": 10,
       "name": "Family PC",
       "type": "Desktop",
-      "components": [3, 7, 11, 15, 19]
+      "components": [1, 4, 6, 11, 13, 17]
     },
     {
       "id": 11,
       "name": "Graphic Design",
       "type": "Desktop",
-      "components": [4, 8, 12, 16, 20]
+      "components": [2, 3, 7, 10, 12, 16]
     },
     {
       "id": 12,
       "name": "Home Theater",
       "type": "HTPC",
-      "components": [5, 9, 13, 17]
+      "components": [1, 4, 13, 19]
     },
     {
       "id": 13,
       "name": "Budget PC",
       "type": "Desktop",
-      "components": [6, 10, 14, 18]
+      "components": [1, 6, 11, 17]
     },
     {
       "id": 14,
       "name": "Travel Laptop",
       "type": "Laptop",
-      "components": [7, 11, 15, 19]
+      "components": [1, 5, 14, 18]
     },
     {
       "id": 15,
       "name": "High-End Server",
       "type": "Server",
-      "components": [8, 12, 16, 20, 4]
+      "components": [2, 9, 15, 16, 19]
     }
   ],
   "components": [
@@ -158,121 +158,248 @@
       "id": 1,
       "name": "CPU Intel Core i9-13900K",
       "type": "CPU",
-      "specs": "24 cores, 32 threads, 5.8GHz"
+      "specs": {
+        "cores": 24,
+        "threads": 32,
+        "base_clock": "3.0 GHz",
+        "boost_clock": "5.8 GHz",
+        "tdp_watts": 125,
+        "socket": "LGA 1700"
+      }
     },
     {
       "id": 2,
       "name": "CPU AMD Ryzen 9 7950X",
       "type": "CPU",
-      "specs": "16 cores, 32 threads, 5.7GHz"
+      "specs": {
+        "cores": 16,
+        "threads": 32,
+        "base_clock": "4.5 GHz",
+        "boost_clock": "5.7 GHz",
+        "tdp_watts": 170,
+        "socket": "AM5"
+      }
     },
     {
       "id": 3,
       "name": "Motherboard ASUS ROG Maximus Z790",
       "type": "Motherboard",
-      "specs": "LGA 1700, DDR5, WiFi 6E"
+      "specs": {
+        "socket": "LGA 1700",
+        "chipset": "Intel Z790",
+        "ram_slots": 4,
+        "max_ram": "128GB DDR5",
+        "power_consumption": 15,
+        "form_factor": "ATX"
+      }
     },
     {
       "id": 4,
       "name": "Motherboard MSI MAG B550 TOMAHAWK",
       "type": "Motherboard",
-      "specs": "AM4, DDR4, PCIe 4.0"
+      "specs": {
+        "socket": "AM4",
+        "chipset": "AMD B550",
+        "ram_slots": 4,
+        "max_ram": "128GB DDR4",
+        "power_consumption": 12,
+        "form_factor": "ATX"
+      }
     },
     {
       "id": 5,
       "name": "RAM Corsair Dominator 32GB DDR5",
       "type": "RAM",
-      "specs": "5600MHz, CL36"
+      "specs": {
+        "capacity": "32GB (2x16GB)",
+        "speed": "5600 MHz",
+        "latency": "CL36",
+        "voltage": "1.25V",
+        "power_consumption": 5
+      }
     },
     {
       "id": 6,
       "name": "RAM G.Skill Trident Z 64GB DDR4",
       "type": "RAM",
-      "specs": "3600MHz, CL16"
+      "specs": {
+        "capacity": "64GB (2x32GB)",
+        "speed": "3600 MHz",
+        "latency": "CL16",
+        "voltage": "1.35V",
+        "power_consumption": 7
+      }
     },
     {
       "id": 7,
       "name": "GPU NVIDIA RTX 4090",
       "type": "GPU",
-      "specs": "24GB GDDR6X"
+      "specs": {
+        "vram": "24GB GDDR6X",
+        "core_clock": "2235 MHz",
+        "boost_clock": "2520 MHz",
+        "tdp_watts": 450,
+        "power_connectors": "1x16-pin"
+      }
     },
     {
       "id": 8,
       "name": "GPU AMD Radeon RX 7900 XTX",
       "type": "GPU",
-      "specs": "24GB GDDR6"
+      "specs": {
+        "vram": "24GB GDDR6",
+        "core_clock": "2300 MHz",
+        "boost_clock": "2500 MHz",
+        "tdp_watts": 355,
+        "power_connectors": "2x8-pin"
+      }
     },
     {
       "id": 9,
       "name": "Power Supply Corsair RM1000x",
       "type": "Power Supply",
-      "specs": "1000W, 80+ Gold"
+      "specs": {
+        "wattage": 1000,
+        "efficiency": "80+ Gold",
+        "modular": "Full",
+        "fan_size": "135mm",
+        "output": "Single +12V rail"
+      }
     },
     {
       "id": 10,
       "name": "Power Supply EVGA SuperNOVA 850",
       "type": "Power Supply",
-      "specs": "850W, 80+ Platinum"
+      "specs": {
+        "wattage": 850,
+        "efficiency": "80+ Platinum",
+        "modular": "Full",
+        "fan_size": "140mm",
+        "output": "Multi +12V rails"
+      }
     },
     {
       "id": 11,
       "name": "Cooler Noctua NH-D15",
       "type": "Cooler",
-      "specs": "Dual Tower, 140mm fans"
+      "specs": {
+        "type": "Air",
+        "fan_size": "2x140mm",
+        "max_rpm": 1500,
+        "noise_level": "24.6 dB",
+        "power_consumption": 3,
+        "tdp_rating": "250W"
+      }
     },
     {
       "id": 12,
       "name": "Cooler NZXT Kraken X73",
       "type": "Cooler",
-      "specs": "360mm Liquid Cooler"
+      "specs": {
+        "type": "Liquid",
+        "radiator_size": "360mm",
+        "fan_size": "3x120mm",
+        "max_rpm": 1800,
+        "noise_level": "21 dB",
+        "power_consumption": 6,
+        "tdp_rating": "300W"
+      }
     },
     {
       "id": 13,
       "name": "SSD Samsung 980 Pro 1TB",
       "type": "Storage",
-      "specs": "PCIe 4.0 NVMe"
+      "specs": {
+        "capacity": "1TB",
+        "interface": "PCIe 4.0 NVMe",
+        "read_speed": "7000 MB/s",
+        "write_speed": "5000 MB/s",
+        "power_consumption": 5.5
+      }
     },
     {
       "id": 14,
       "name": "SSD WD Black SN850X 2TB",
       "type": "Storage",
-      "specs": "PCIe 4.0 NVMe"
+      "specs": {
+        "capacity": "2TB",
+        "interface": "PCIe 4.0 NVMe",
+        "read_speed": "7300 MB/s",
+        "write_speed": "6600 MB/s",
+        "power_consumption": 6.8
+      }
     },
     {
       "id": 15,
       "name": "HDD Seagate IronWolf 8TB",
       "type": "Storage",
-      "specs": "7200 RPM, NAS"
+      "specs": {
+        "capacity": "8TB",
+        "interface": "SATA III",
+        "rpm": 7200,
+        "cache": "256MB",
+        "power_consumption": 7.5
+      }
     },
     {
       "id": 16,
       "name": "Case Lian Li PC-O11 Dynamic",
       "type": "Case",
-      "specs": "Mid Tower, Tempered Glass"
+      "specs": {
+        "type": "Mid Tower",
+        "material": "Aluminum/Tempered Glass",
+        "fan_slots": 9,
+        "radiator_support": "360mm",
+        "power_supply_shroud": true
+      }
     },
     {
       "id": 17,
       "name": "Case Fractal Design Meshify C",
       "type": "Case",
-      "specs": "Compact ATX, Airflow"
+      "specs": {
+        "type": "Compact ATX",
+        "material": "Steel/Tempered Glass",
+        "fan_slots": 7,
+        "radiator_support": "280mm",
+        "power_supply_shroud": true
+      }
     },
     {
       "id": 18,
       "name": "Fan Corsair LL120 RGB",
       "type": "Fan",
-      "specs": "120mm, PWM, RGB"
+      "specs": {
+        "size": "120mm",
+        "rpm_range": "600-1500",
+        "airflow": "43.25 CFM",
+        "noise_level": "24.8 dB",
+        "power_consumption": 0.9
+      }
     },
     {
       "id": 19,
       "name": "Fan Noctua NF-A14",
       "type": "Fan",
-      "specs": "140mm, PWM"
+      "specs": {
+        "size": "140mm",
+        "rpm_range": "300-1500",
+        "airflow": "82.5 CFM",
+        "noise_level": "24.6 dB",
+        "power_consumption": 1.2
+      }
     },
     {
       "id": 20,
       "name": "Monitor ASUS ROG Swift PG32UQX",
       "type": "Monitor",
-      "specs": "32\", 4K, 144Hz"
+      "specs": {
+        "size": "32\"",
+        "resolution": "3840x2160 (4K)",
+        "refresh_rate": "144Hz",
+        "panel_type": "IPS",
+        "power_consumption": 50
+      }
     }
   ]
 }
