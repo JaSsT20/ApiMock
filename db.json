@@ -1,3 +1,828 @@
 {
-  
+  "users": [
+    {
+      "id": 1,
+      "name": "Levid Tejada",
+      "email": "levid@example.com",
+      "computers": [1, 2]
+    },
+    {
+      "id": 2,
+      "name": "Grey Polanco",
+      "email": "grey@example.com",
+      "computers": [3]
+    },
+    {
+      "id": 3,
+      "name": "Jose Daniel",
+      "email": "jd@example.com",
+      "computers": [4, 5]
+    },
+    {
+      "id": 4,
+      "name": "Emily Davis",
+      "email": "emily@example.com",
+      "computers": [6]
+    },
+    {
+      "id": 5,
+      "name": "Michael Wilson",
+      "email": "michael@example.com",
+      "computers": [7, 8]
+    },
+    {
+      "id": 6,
+      "name": "Sarah Brown",
+      "email": "sarah@example.com",
+      "computers": [9]
+    },
+    {
+      "id": 7,
+      "name": "David Taylor",
+      "email": "david@example.com",
+      "computers": [10, 11]
+    },
+    {
+      "id": 8,
+      "name": "Laura Martinez",
+      "email": "laura@example.com",
+      "computers": [12]
+    },
+    {
+      "id": 9,
+      "name": "James Anderson",
+      "email": "james@example.com",
+      "computers": [13, 14]
+    },
+    {
+      "id": 10,
+      "name": "Emma Thomas",
+      "email": "emma@example.com",
+      "computers": [15]
+    },
+    {
+      "id": 11,
+      "name": "Daniel White",
+      "email": "daniel@example.com",
+      "computers": [16, 17]
+    },
+    {
+      "id": 12,
+      "name": "Olivia Clark",
+      "email": "olivia@example.com",
+      "computers": [18]
+    },
+    {
+      "id": 13,
+      "name": "William Lee",
+      "email": "william@example.com",
+      "computers": [19]
+    },
+    {
+      "id": 14,
+      "name": "Sophia Hall",
+      "email": "sophia@example.com",
+      "computers": [20]
+    },
+    {
+      "id": 15,
+      "name": "Ethan Allen",
+      "email": "ethan@example.com",
+      "computers": []
+    },
+    {
+      "id": 16,
+      "name": "Ava Scott",
+      "email": "ava@example.com",
+      "computers": []
+    },
+    {
+      "id": 17,
+      "name": "Alexander Green",
+      "email": "alexander@example.com",
+      "computers": []
+    },
+    {
+      "id": 18,
+      "name": "Mia Adams",
+      "email": "mia@example.com",
+      "computers": []
+    },
+    {
+      "id": 19,
+      "name": "Benjamin Baker",
+      "email": "benjamin@example.com",
+      "computers": []
+    },
+    {
+      "id": 20,
+      "name": "Charlotte Nelson",
+      "email": "charlotte@example.com",
+      "computers": []
+    }
+  ],
+  "computers": [
+    {
+      "id": 1,
+      "brand": "HP",
+      "model": "Omen 30L",
+      "userId": 1,
+      "components": [1, 2, 3, 4]
+    },
+    {
+      "id": 2,
+      "brand": "Dell",
+      "model": "XPS 8950",
+      "userId": 1,
+      "components": [5, 6, 7, 8]
+    },
+    {
+      "id": 3,
+      "brand": "Apple",
+      "model": "MacBook Pro M2",
+      "userId": 2,
+      "components": [9, 10, 11, 12]
+    },
+    {
+      "id": 4,
+      "brand": "Custom",
+      "model": "Gaming Pro",
+      "userId": 3,
+      "components": [13, 14, 15, 16]
+    },
+    {
+      "id": 5,
+      "brand": "Lenovo",
+      "model": "Legion Tower 5",
+      "userId": 3,
+      "components": [17, 18, 19, 20]
+    },
+    {
+      "id": 6,
+      "brand": "ASUS",
+      "model": "ROG Strix G15",
+      "userId": 4,
+      "components": [21, 22, 23, 24]
+    },
+    {
+      "id": 7,
+      "brand": "Acer",
+      "model": "Predator Orion 3000",
+      "userId": 5,
+      "components": [25, 26, 27, 28]
+    },
+    {
+      "id": 8,
+      "brand": "MSI",
+      "model": "MAG Infinite S3",
+      "userId": 5,
+      "components": [29, 30, 31, 32]
+    },
+    {
+      "id": 9,
+      "brand": "Alienware",
+      "model": "Aurora R15",
+      "userId": 6,
+      "components": [33, 34, 35, 36]
+    },
+    {
+      "id": 10,
+      "brand": "Custom",
+      "model": "Workstation",
+      "userId": 7,
+      "components": [37, 38, 39, 40]
+    },
+    {
+      "id": 11,
+      "brand": "Samsung",
+      "model": "Galaxy Book Pro",
+      "userId": 7,
+      "components": [41, 42, 43, 44]
+    },
+    {
+      "id": 12,
+      "brand": "Razer",
+      "model": "Blade 15",
+      "userId": 8,
+      "components": [45, 46, 47, 48]
+    },
+    {
+      "id": 13,
+      "brand": "Custom",
+      "model": "Streaming PC",
+      "userId": 9,
+      "components": [49, 50, 51, 52]
+    },
+    {
+      "id": 14,
+      "brand": "Gigabyte",
+      "model": "Aorus 17X",
+      "userId": 9,
+      "components": [53, 54, 55, 56]
+    },
+    {
+      "id": 15,
+      "brand": "Microsoft",
+      "model": "Surface Studio",
+      "userId": 10,
+      "components": [57, 58, 59, 60]
+    },
+    {
+      "id": 16,
+      "brand": "Custom",
+      "model": "Mini ITX Build",
+      "userId": 11,
+      "components": [61, 62, 63, 64]
+    },
+    {
+      "id": 17,
+      "brand": "Intel",
+      "model": "NUC Extreme",
+      "userId": 11,
+      "components": [65, 66, 67, 68]
+    },
+    {
+      "id": 18,
+      "brand": "Falcon Northwest",
+      "model": "Talon",
+      "userId": 12,
+      "components": [69, 70, 71, 72]
+    },
+    {
+      "id": 19,
+      "brand": "Origin PC",
+      "model": "Neuron",
+      "userId": 13,
+      "components": [73, 74, 75, 76]
+    },
+    {
+      "id": 20,
+      "brand": "CyberPowerPC",
+      "model": "Gamer Xtreme",
+      "userId": 14,
+      "components": [77, 78, 79, 80]
+    }
+  ],
+  "components": [
+    {
+      "id": 1,
+      "type": "RAM",
+      "brand": "Corsair",
+      "model": "Vengeance RGB Pro 32GB",
+      "specs": "DDR4 3600MHz"
+    },
+    {
+      "id": 2,
+      "type": "Motherboard",
+      "brand": "ASUS",
+      "model": "ROG Maximus Z790",
+      "specs": "LGA 1700, Wi-Fi 6E"
+    },
+    {
+      "id": 3,
+      "type": "CPU",
+      "brand": "Intel",
+      "model": "Core i9-13900K",
+      "specs": "24 cores, 5.8GHz Turbo"
+    },
+    {
+      "id": 4,
+      "type": "GPU",
+      "brand": "NVIDIA",
+      "model": "RTX 4090",
+      "specs": "24GB GDDR6X"
+    },
+    {
+      "id": 5,
+      "type": "SSD",
+      "brand": "Samsung",
+      "model": "980 Pro 2TB",
+      "specs": "NVMe PCIe 4.0"
+    },
+    {
+      "id": 6,
+      "type": "PSU",
+      "brand": "Seasonic",
+      "model": "PRIME TX-1000",
+      "specs": "1000W 80+ Titanium"
+    },
+    {
+      "id": 7,
+      "type": "Cooler",
+      "brand": "Noctua",
+      "model": "NH-D15",
+      "specs": "Dual-Tower Air Cooler"
+    },
+    {
+      "id": 8,
+      "type": "Case",
+      "brand": "Lian Li",
+      "model": "PC-O11 Dynamic",
+      "specs": "Mid-Tower, Tempered Glass"
+    },
+    {
+      "id": 9,
+      "type": "RAM",
+      "brand": "Crucial",
+      "model": "DDR5 16GB",
+      "specs": "4800MHz SODIMM"
+    },
+    {
+      "id": 10,
+      "type": "Storage",
+      "brand": "Apple",
+      "model": "Unified Memory",
+      "specs": "1TB SSD (Soldered)"
+    },
+    {
+      "id": 11,
+      "type": "GPU",
+      "brand": "Apple",
+      "model": "M2 Pro 19-Core",
+      "specs": "Integrated GPU"
+    },
+    {
+      "id": 12,
+      "type": "Battery",
+      "brand": "Apple",
+      "model": "96W Li-Po",
+      "specs": "Up to 18 hours"
+    },
+    {
+      "id": 13,
+      "type": "RAM",
+      "brand": "G.Skill",
+      "model": "Trident Z5 RGB 64GB",
+      "specs": "DDR5 6000MHz"
+    },
+    {
+      "id": 14,
+      "type": "Motherboard",
+      "brand": "MSI",
+      "model": "MEG X670E ACE",
+      "specs": "AM5, PCIe 5.0"
+    },
+    {
+      "id": 15,
+      "type": "CPU",
+      "brand": "AMD",
+      "model": "Ryzen 9 7950X",
+      "specs": "16 cores, 5.7GHz"
+    },
+    {
+      "id": 16,
+      "type": "GPU",
+      "brand": "AMD",
+      "model": "RX 7900 XTX",
+      "specs": "24GB GDDR6"
+    },
+    {
+      "id": 17,
+      "type": "SSD",
+      "brand": "Western Digital",
+      "model": "Black SN850X 4TB",
+      "specs": "NVMe Gen4"
+    },
+    {
+      "id": 18,
+      "type": "PSU",
+      "brand": "Corsair",
+      "model": "AX1600i",
+      "specs": "1600W Digital"
+    },
+    {
+      "id": 19,
+      "type": "Cooler",
+      "brand": "EKWB",
+      "model": "Quantum Velocity",
+      "specs": "Custom Liquid Cooling"
+    },
+    {
+      "id": 20,
+      "type": "Case",
+      "brand": "Fractal Design",
+      "model": "Torrent RGB",
+      "specs": "Full-Tower, Airflow"
+    },
+    {
+      "id": 21,
+      "type": "RAM",
+      "brand": "Kingston",
+      "model": "Fury Beast 16GB",
+      "specs": "DDR4 3200MHz"
+    },
+    {
+      "id": 22,
+      "type": "Motherboard",
+      "brand": "ASUS",
+      "model": "TUF B550-PLUS",
+      "specs": "AM4, Wi-Fi"
+    },
+    {
+      "id": 23,
+      "type": "CPU",
+      "brand": "AMD",
+      "model": "Ryzen 7 5800X3D",
+      "specs": "8 cores, 3D V-Cache"
+    },
+    {
+      "id": 24,
+      "type": "GPU",
+      "brand": "NVIDIA",
+      "model": "RTX 3080 Ti",
+      "specs": "12GB GDDR6X"
+    },
+    {
+      "id": 25,
+      "type": "SSD",
+      "brand": "Sabrent",
+      "model": "Rocket 4 Plus 1TB",
+      "specs": "PCIe 4.0"
+    },
+    {
+      "id": 26,
+      "type": "PSU",
+      "brand": "EVGA",
+      "model": "SuperNOVA G6 850W",
+      "specs": "80+ Gold"
+    },
+    {
+      "id": 27,
+      "type": "Cooler",
+      "brand": "Cooler Master",
+      "model": "Hyper 212 RGB",
+      "specs": "Air Cooler"
+    },
+    {
+      "id": 28,
+      "type": "Case",
+      "brand": "NZXT",
+      "model": "H7 Flow",
+      "specs": "Mid-Tower"
+    },
+    {
+      "id": 29,
+      "type": "RAM",
+      "brand": "TeamGroup",
+      "model": "T-Force Delta RGB 32GB",
+      "specs": "DDR4 3600MHz"
+    },
+    {
+      "id": 30,
+      "type": "Motherboard",
+      "brand": "Gigabyte",
+      "model": "B660 AORUS Master",
+      "specs": "LGA 1700"
+    },
+    {
+      "id": 31,
+      "type": "CPU",
+      "brand": "Intel",
+      "model": "Core i5-12600K",
+      "specs": "10 cores, 4.9GHz"
+    },
+    {
+      "id": 32,
+      "type": "GPU",
+      "brand": "NVIDIA",
+      "model": "RTX 3070",
+      "specs": "8GB GDDR6"
+    },
+    {
+      "id": 33,
+      "type": "SSD",
+      "brand": "Seagate",
+      "model": "FireCuda 530 2TB",
+      "specs": "PCIe 4.0"
+    },
+    {
+      "id": 34,
+      "type": "PSU",
+      "brand": "be quiet!",
+      "model": "Dark Power 12 750W",
+      "specs": "80+ Platinum"
+    },
+    {
+      "id": 35,
+      "type": "Cooler",
+      "brand": "ARCTIC",
+      "model": "Liquid Freezer II 360",
+      "specs": "AIO Liquid Cooler"
+    },
+    {
+      "id": 36,
+      "type": "Case",
+      "brand": "Phanteks",
+      "model": "Eclipse P500A",
+      "specs": "RGB, High Airflow"
+    },
+    {
+      "id": 37,
+      "type": "RAM",
+      "brand": "Patriot",
+      "model": "Viper Steel 64GB",
+      "specs": "DDR4 4000MHz"
+    },
+    {
+      "id": 38,
+      "type": "Motherboard",
+      "brand": "ASRock",
+      "model": "X570 Taichi",
+      "specs": "AM4, PCIe 4.0"
+    },
+    {
+      "id": 39,
+      "type": "CPU",
+      "brand": "AMD",
+      "model": "Ryzen 9 5950X",
+      "specs": "16 cores, 4.9GHz"
+    },
+    {
+      "id": 40,
+      "type": "GPU",
+      "brand": "NVIDIA",
+      "model": "RTX 3090",
+      "specs": "24GB GDDR6X"
+    },
+    {
+      "id": 41,
+      "type": "SSD",
+      "brand": "Samsung",
+      "model": "870 EVO 1TB",
+      "specs": "SATA III"
+    },
+    {
+      "id": 42,
+      "type": "PSU",
+      "brand": "Thermaltake",
+      "model": "Toughpower GF1 750W",
+      "specs": "80+ Gold"
+    },
+    {
+      "id": 43,
+      "type": "Cooler",
+      "brand": "DeepCool",
+      "model": "AK620",
+      "specs": "Dual-Tower Air Cooler"
+    },
+    {
+      "id": 44,
+      "type": "Case",
+      "brand": "Cooler Master",
+      "model": "MasterBox TD500",
+      "specs": "Mesh Front Panel"
+    },
+    {
+      "id": 45,
+      "type": "RAM",
+      "brand": "HyperX",
+      "model": "Predator 32GB",
+      "specs": "DDR4 3200MHz"
+    },
+    {
+      "id": 46,
+      "type": "Motherboard",
+      "brand": "MSI",
+      "model": "MPG Z690 Carbon",
+      "specs": "LGA 1700"
+    },
+    {
+      "id": 47,
+      "type": "CPU",
+      "brand": "Intel",
+      "model": "Core i7-12700K",
+      "specs": "12 cores, 5.0GHz"
+    },
+    {
+      "id": 48,
+      "type": "GPU",
+      "brand": "NVIDIA",
+      "model": "RTX 4080",
+      "specs": "16GB GDDR6X"
+    },
+    {
+      "id": 49,
+      "type": "SSD",
+      "brand": "Crucial",
+      "model": "P5 Plus 2TB",
+      "specs": "PCIe 4.0"
+    },
+    {
+      "id": 50,
+      "type": "PSU",
+      "brand": "Corsair",
+      "model": "RM850x",
+      "specs": "80+ Gold"
+    },
+    {
+      "id": 51,
+      "type": "Cooler",
+      "brand": "NZXT",
+      "model": "Kraken X73",
+      "specs": "360mm AIO"
+    },
+    {
+      "id": 52,
+      "type": "Case",
+      "brand": "Lian Li",
+      "model": "Lancool II Mesh",
+      "specs": "RGB, High Airflow"
+    },
+    {
+      "id": 53,
+      "type": "RAM",
+      "brand": "Corsair",
+      "model": "Dominator Platinum 64GB",
+      "specs": "DDR5 5600MHz"
+    },
+    {
+      "id": 54,
+      "type": "Motherboard",
+      "brand": "ASUS",
+      "model": "ROG Crosshair X670E",
+      "specs": "AM5, PCIe 5.0"
+    },
+    {
+      "id": 55,
+      "type": "CPU",
+      "brand": "AMD",
+      "model": "Ryzen 7 7700X",
+      "specs": "8 cores, 5.4GHz"
+    },
+    {
+      "id": 56,
+      "type": "GPU",
+      "brand": "AMD",
+      "model": "RX 7800 XT",
+      "specs": "16GB GDDR6"
+    },
+    {
+      "id": 57,
+      "type": "SSD",
+      "brand": "Samsung",
+      "model": "990 Pro 1TB",
+      "specs": "PCIe 4.0"
+    },
+    {
+      "id": 58,
+      "type": "PSU",
+      "brand": "Seasonic",
+      "model": "Focus GX-650",
+      "specs": "80+ Gold"
+    },
+    {
+      "id": 59,
+      "type": "Cooler",
+      "brand": "be quiet!",
+      "model": "Dark Rock Pro 4",
+      "specs": "Air Cooler"
+    },
+    {
+      "id": 60,
+      "type": "Case",
+      "brand": "Fractal Design",
+      "model": "Define 7",
+      "specs": "Silent, Modular"
+    },
+    {
+      "id": 61,
+      "type": "RAM",
+      "brand": "G.Skill",
+      "model": "Ripjaws V 16GB",
+      "specs": "DDR4 3600MHz"
+    },
+    {
+      "id": 62,
+      "type": "Motherboard",
+      "brand": "ASRock",
+      "model": "B550M-ITX",
+      "specs": "Mini-ITX"
+    },
+    {
+      "id": 63,
+      "type": "CPU",
+      "brand": "AMD",
+      "model": "Ryzen 5 5600X",
+      "specs": "6 cores, 4.6GHz"
+    },
+    {
+      "id": 64,
+      "type": "GPU",
+      "brand": "NVIDIA",
+      "model": "RTX 3060 Ti",
+      "specs": "8GB GDDR6"
+    },
+    {
+      "id": 65,
+      "type": "SSD",
+      "brand": "Kingston",
+      "model": "NV1 1TB",
+      "specs": "NVMe PCIe 3.0"
+    },
+    {
+      "id": 66,
+      "type": "PSU",
+      "brand": "SilverStone",
+      "model": "SX700-PT",
+      "specs": "SFX 700W"
+    },
+    {
+      "id": 67,
+      "type": "Cooler",
+      "brand": "Noctua",
+      "model": "NH-L9i",
+      "specs": "Low-Profile"
+    },
+    {
+      "id": 68,
+      "type": "Case",
+      "brand": "Cooler Master",
+      "model": "NR200P",
+      "specs": "Mini-ITX, SFF"
+    },
+    {
+      "id": 69,
+      "type": "RAM",
+      "brand": "Corsair",
+      "model": "Vengeance LPX 32GB",
+      "specs": "DDR4 3200MHz"
+    },
+    {
+      "id": 70,
+      "type": "Motherboard",
+      "brand": "Gigabyte",
+      "model": "Z690 AORUS Ultra",
+      "specs": "LGA 1700"
+    },
+    {
+      "id": 71,
+      "type": "CPU",
+      "brand": "Intel",
+      "model": "Core i9-12900K",
+      "specs": "16 cores, 5.2GHz"
+    },
+    {
+      "id": 72,
+      "type": "GPU",
+      "brand": "NVIDIA",
+      "model": "RTX 3090 Ti",
+      "specs": "24GB GDDR6X"
+    },
+    {
+      "id": 73,
+      "type": "SSD",
+      "brand": "Western Digital",
+      "model": "Black SN770 2TB",
+      "specs": "PCIe 4.0"
+    },
+    {
+      "id": 74,
+      "type": "PSU",
+      "brand": "Corsair",
+      "model": "HX1200",
+      "specs": "1200W Platinum"
+    },
+    {
+      "id": 75,
+      "type": "Cooler",
+      "brand": "EKWB",
+      "model": "Quantum Magnitude",
+      "specs": "Custom Water Block"
+    },
+    {
+      "id": 76,
+      "type": "Case",
+      "brand": "Thermaltake",
+      "model": "View 71",
+      "specs": "Full-Tower, Tempered Glass"
+    },
+    {
+      "id": 77,
+      "type": "RAM",
+      "brand": "TeamGroup",
+      "model": "XTREEM ARGB 32GB",
+      "specs": "DDR4 4133MHz"
+    },
+    {
+      "id": 78,
+      "type": "Motherboard",
+      "brand": "ASUS",
+      "model": "PRIME X570-PRO",
+      "specs": "AM4"
+    },
+    {
+      "id": 79,
+      "type": "CPU",
+      "brand": "AMD",
+      "model": "Ryzen 9 5900X",
+      "specs": "12 cores, 4.8GHz"
+    },
+    {
+      "id": 80,
+      "type": "GPU",
+      "brand": "AMD",
+      "model": "RX 6950 XT",
+      "specs": "16GB GDDR6"
+    }
+  ]
 }
